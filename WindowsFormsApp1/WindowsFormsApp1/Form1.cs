@@ -49,7 +49,7 @@ namespace WindowsFormsApp1
             Controls.Add(chart);
             
             Console.WriteLine("Chart created.");
-            Console.WriteLine("Hello user."); /* debug line */
+            Console.WriteLine("Hello user."); /* debug line  */
         }
     }
 }
