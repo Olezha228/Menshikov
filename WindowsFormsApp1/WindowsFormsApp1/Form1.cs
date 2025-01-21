@@ -36,7 +36,7 @@ namespace WindowsFormsApp1
             };
 
             // Добавляем точки данных в серию
-            PointHelper.FillChart(series);
+            PointHelper.FillChart(chart);
 
             // Добавляем серию в график
             chart.Series.Add(series);
