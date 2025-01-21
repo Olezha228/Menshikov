@@ -51,12 +51,12 @@ namespace WindowsFormsApp1
                         double y1 = Math.Pow(x, 2) + Math.Sin(7 * x) - 1;
                         series1.Points.AddXY(x, y1);
                     }
-                    else if (i == 1) // Вторая функция
+                    else if (i == 1) // Вторая функция на 2 интервале
                     {
                         double y2 = Math.Abs(Math.Pow(x, 3) + Math.Pow(10, x));
                         series2.Points.AddXY(x, y2);
                     }
-                    else if (i == 2) // Третья функция
+                    else if (i == 2) // Третья функция на 3 интервале
                     {
                         double y3 = Math.Pow(2 * Math.Pow(x, 4) + Math.Pow(x, 2) + 1, 1.0 / 7.0);
                         series3.Points.AddXY(x, y3);
